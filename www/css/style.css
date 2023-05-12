@@ -1,0 +1,72 @@
+
+body {
+    height: 100vh;
+    background: #44A08D; 
+    background: -webkit-linear-gradient(to right, #093637, #44A08D); 
+    background: linear-gradient(to right, #093637, #44A08D); 
+    align-items: center;
+    justify-content: center;
+}
+
+
+.chairs{
+    background-color: limegreen;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+    border-radius: 25px;
+}
+
+.chairs:hover {
+    transform: scale(1.1);
+    color: black;
+}
+.chairs:focus{
+    color:white;
+    transform: scale(1);
+}
+.chairs[ocupado]{
+    background-color: red;
+}
+.tele{
+    background-color: limegreen;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+    border-radius: 25px;
+}
+
+.tele:hover {
+    transform: scale(1.1);
+    color: black;
+}
+.tele:left{
+    transform: scale(1);
+    color: white;
+}
+h1{
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.lab{
+    color: black;
+    background-color: white;
+    border-radius: 7.5px;
+    height: 25.5px;
+    width: 75%;
+    font-size:100%;
+}
+.coin{
+    color:gold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
